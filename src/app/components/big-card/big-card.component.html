@@ -1,6 +1,6 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AED07A4BEFCAD750C7C2B03E648A1C3D06C2AEFCFE20D6A19F2F6ECE6584F521/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    <img src="{{ photoCover }}"
     alt=""
     srcset=""
     height="200px"
@@ -8,12 +8,12 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="#">Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris.Paisis, filhis, espiritis santis.In elementis mé pra quem é amistosis quis leo.Quem manda na minha terra sou euzis!</a>
+      <a href="#">{{ cardDiscription }}</a>
     </p>
   </div>
 </div>
